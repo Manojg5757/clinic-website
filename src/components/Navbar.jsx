@@ -32,10 +32,10 @@ const Navbar = () => {
         <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
           <div className=" flex flex-row items-center cursor-pointer text-red-500">
             <Link to="home" spy={true} smooth={true} duration={500}>
-              {/* <img className="h-[40px]" src={logo} alt="" /> */}
-              <h1>Sara Electro Herbs</h1>
+              <h1 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold bg-gradient-to-r from-red-500 via-red-600 to-red-700 bg-clip-text text-transparent tracking-wider hover:from-red-600 hover:to-red-800 transition-all duration-300 transform hover:scale-105" style={{fontFamily: 'Ubuntu, sans-serif'}}>
+                SARA ELECTRO HERBS
+              </h1>
             </Link>
-           
           </div>
 
           <nav className=" hidden lg:flex flex-row items-center text-lg font-medium gap-8">
