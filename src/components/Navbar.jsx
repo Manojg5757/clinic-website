@@ -34,7 +34,7 @@ const Navbar = () => {
             {/* <Link to="home" spy={true} smooth={true} duration={500}>
               <img className="h-[40px]" src={logo} alt="" />
             </Link> */}
-            Logo
+            SARA ELECTRO HERBS
           </div>
 
           <nav className=" hidden lg:flex flex-row items-center text-lg font-medium gap-8">

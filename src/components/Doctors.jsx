@@ -9,28 +9,28 @@ const Doctors = () => {
   const data = [
     {
       img: "/src/assets/img/doc1.jpg",
-      name: "ELECTROPATHY",
-      specialties: "Orthopedic Surgeon",
+      name: "CHRONIC DISEASES",
+      specialties: "Diabetes, Arthritis, Hypertension",
     },
     {
       img: "/src/assets/img/doc2.jpg",
-      name: "THERAPEUTIC YOGA",
-      specialties: "Cardiologist",
+      name: "DIGESTIVE DISORDERS",
+      specialties: "IBS, Acidity, Constipation",
     },
     {
       img: "/src/assets/img/doc3.jpg",
-      name: "DIET & NUTRITION",
-      specialties: "Pediatrician",
+      name: "SKIN CONDITIONS",
+      specialties: "Eczema, Psoriasis, Allergies",
     },
     {
       img: "/src/assets/img/doc4.jpg",
-      name: "PSYCHO THERAPY",
-      specialties: "Neurologist",
+      name: "STRESS & ANXIETY",
+      specialties: "Mental Wellness, Insomnia",
     },
     {
       img: "/src/assets/img/doc5.jpg",
-      name: "COUNCELLING",
-      specialties: "Dermatologist",
+      name: "RESPIRATORY ISSUES",
+      specialties: "Asthma, Bronchitis, Allergies",
     },
   ];
 
@@ -81,8 +81,7 @@ const Doctors = () => {
            Services
           </h1>
           <p className=" mt-2 text-center lg:text-start">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-            quidem.
+            Natural healing through electropathy for holistic wellness and vitality.
           </p>
         </div>
         <div className="flex gap-5 mt-4 lg:mt-0">
@@ -114,10 +113,9 @@ const Doctors = () => {
                   className=" h-56 rounded-t-xl w-full"
                 />
               </div>
-
-              <div className=" flex flex-col justify-center items-center">
+             <div className=" flex flex-col justify-center items-center">
                 <h1 className=" font-semibold text-xl pt-4">{e.name}</h1>
-                
+                <p className=" text-sm text-gray-600 text-center px-2">{e.specialties}</p>               
               </div>
             </div>
           ))}

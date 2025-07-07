@@ -19,11 +19,10 @@ const Services = () => {
       <div className=" flex flex-col items-center lg:flex-row justify-between">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
-            Our Checkups
+            Our Treatments
           </h1>
           <p className=" mt-2 text-center lg:text-start">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-            quidem.
+            Comprehensive electropathy solutions for natural healing and wellness.
           </p>
         </div>
         {/* <div className=" mt-4 lg:mt-0">
@@ -31,9 +30,21 @@ const Services = () => {
         </div> */}
       </div>
       <div className=" flex flex-col lg:flex-row gap-5 pt-14">
-        <ServicesCard icon={icon1} title="Lab Test" />
-        <ServicesCard icon={icon2} title="Health Check" />
-        <ServicesCard icon={icon3} title="Heart Health" />
+        <ServicesCard 
+          icon={icon1} 
+          title="Diagnosis & Assessment" 
+          description="Thorough evaluation using traditional electropathy methods to identify root causes of health issues and determine the most effective plant-based treatment approach."
+        />
+        <ServicesCard 
+          icon={icon2} 
+          title="Natural Remedies" 
+          description="Carefully selected plant-based electropathy medicines that work harmoniously with your body's natural healing processes, ensuring safe and effective treatment."
+        />
+        <ServicesCard 
+          icon={icon3} 
+          title="Holistic Wellness" 
+          description="Complete wellness programs combining electropathy treatments with lifestyle guidance to promote long-term health, vitality, and natural disease prevention."
+        />
       </div>
     </div>
   );

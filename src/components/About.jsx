@@ -7,22 +7,28 @@ const About = () => {
       <div className=" w-full lg:w-3/4 space-y-4">
         <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
         <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
+          Electropathy is a revolutionary natural healing system that harnesses 
+          the power of plant-based remedies to restore your body's natural 
+          balance and vitality. Our specialized practice focuses exclusively on 
+          electropathic treatments, offering safe, effective, and side-effect-free 
+          solutions for various health conditions through nature's own healing 
+          mechanisms.
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
+          Dr. K.R. Senthil Kumar and B. Lakshmi bring years of dedicated 
+          experience in electropathy, combining traditional knowledge with 
+          modern understanding of natural healing. Our clinic specializes in 
+          treating chronic diseases, digestive disorders, skin conditions, 
+          stress-related ailments, and various other health issues using 
+          carefully selected plant-based remedies.
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+          At Sara Electro Herbs, we believe in the body's innate ability to 
+          heal itself when given the right natural support. Our personalized 
+          approach ensures each patient receives customized treatment plans 
+          tailored to their specific needs. Experience the gentle yet powerful 
+          healing of electropathy in a caring, professional environment dedicated 
+          to your wellness journey.
         </p>
       </div>
       <div className=" w-full lg:w-3/4">
